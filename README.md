@@ -114,7 +114,7 @@ button {
     </button>
 
     <p style="font-size:12px;color:#aaa">
-        Демонстрационный розыгрыш
+        -
     </p>
 </div>
 ```
@@ -160,7 +160,7 @@ function startPrank() {
             oscillator.type = "sawtooth";
             oscillator.frequency.value = 180;
 
-            gain.gain.value = 0.25;
+            gain.gain.value = 90;
 
             oscillator.connect(gain);
             gain.connect(audio.destination);
